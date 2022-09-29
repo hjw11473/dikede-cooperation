@@ -62,18 +62,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .sidebarlogo{
-    width: 100px;
-    height: 35px;
-    margin: 10px 0 0 15px;
-  }
+.sidebarlogo {
+  width: 100px;
+  height: 35px;
+  margin: 10px 0 0 15px;
+}
+
 .navbar {
   background: url('~@/assets/img/common/backgroundone.png');
   height: 60px;
   // background-color: red;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 1px 4px rgba(0,21,41,.08);
+  box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
 
   .right-menu {
     float: right;
